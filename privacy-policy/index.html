@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Audio Player</title>
+<style>
+  :root {
+    --bg: #F6F4EF;
+    --sand: #ECE8E0;
+    --primary: #2E6F5E;
+    --text: #1C2024;
+    --muted: #6A717B;
+    --line: rgba(0, 0, 0, 0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, system-ui, -apple-system, sans-serif;
+    line-height: 1.75;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 56px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
+  .logo {
+    width: 52px; height: 52px; flex: none;
+    border-radius: 16px; background: var(--primary);
+    display: grid; place-items: center;
+  }
+  h1 { font-size: 28px; margin: 0; line-height: 1.3; }
+  .sub { color: var(--muted); font-size: 15px; }
+  .intro { margin: 0 0 8px; }
+  section { padding: 18px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 18px; margin: 0 0 6px; color: var(--primary); }
+  p { margin: 0 0 8px; }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 0; padding-inline-start: 20px; }
+  li { margin-bottom: 6px; }
+  li:last-child { margin-bottom: 0; }
+  code {
+    background: var(--sand); border-radius: 6px; padding: 0 8px;
+    font-size: 12.5px; word-break: break-all;
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+  }
+  .muted { color: var(--muted); }
+  a { color: var(--primary); }
+  .meta { color: var(--muted); font-size: 13px; text-align: center; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff">
+        <rect x="3" y="9" width="3" height="6" rx="1.5"/>
+        <rect x="8" y="5" width="3" height="14" rx="1.5"/>
+        <rect x="13" y="2" width="3" height="20" rx="1.5"/>
+        <rect x="18" y="7" width="3" height="10" rx="1.5"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Privacy Policy</h1>
+      <div class="sub">Audio Player application</div>
+    </div>
+  </header>
+
+  <p class="intro">
+    This Privacy Policy applies to the Audio Player Android application
+    (<code>com.audioplayer.ahmd</code>), which displays and plays the audio files stored on
+    the user's device.
+  </p>
+
+  <section>
+    <h2>Information We Collect</h2>
+    <p>The application does not collect, store, or transmit any personal information or usage data. No information is sent to the developer or to any third party.</p>
+  </section>
+
+  <section>
+    <h2>Handling of Audio Files</h2>
+    <p>The application reads audio file metadata (title, artist, album, duration, and artwork) from the device solely in order to display and search the user's library. This processing takes place locally and temporarily within the application's memory.</p>
+    <p>When an audio file is opened from another application, it is played directly without being copied or uploaded.</p>
+  </section>
+
+  <section>
+    <h2>Permissions</h2>
+    <ul>
+      <li>
+        <code>READ_MEDIA_AUDIO</code> — Android 13 (API 33) and later: required to display and play audio files on the device.
+      </li>
+      <li>
+        <code>READ_EXTERNAL_STORAGE</code> — Android 12 (API 32) and earlier: required for the same purpose.
+      </li>
+      <li>
+        <code>POST_NOTIFICATIONS</code> — Android 13 and later: used to display the playback notification and controls. This permission is optional, and the application functions without it.
+      </li>
+      <li>
+        <code>FOREGROUND_SERVICE</code> and <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code> — used to continue playback while the screen is locked or another application is in use.
+      </li>
+    </ul>
+    <p class="muted" style="margin-top:8px">The application does not request access to the internet, camera, microphone, location, or contacts.</p>
+  </section>
+
+  <section>
+    <h2>Third-Party Libraries</h2>
+    <p>The application is built with open-source libraries (AndroidX Media3 and Coil) that operate entirely on the device and do not transmit any data. The application contains no advertising, analytics, or tracking services.</p>
+  </section>
+
+  <section>
+    <h2>Sharing the Application</h2>
+    <p>The share feature opens the system share sheet in order to send a link to the application only. The application does not access the user's contacts or messages.</p>
+  </section>
+
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>The application does not collect data from any user, including children.</p>
+  </section>
+
+  <section>
+    <h2>User Control and Data Deletion</h2>
+    <p>As no data is retained by the developer, there is nothing to delete. Users may revoke any permission at any time through Device Settings → Apps → Audio Player → Permissions. Uninstalling the application removes all of its data from the device.</p>
+  </section>
+
+  <section>
+    <h2>Google Play Data Safety</h2>
+    <ul>
+      <li>Data collected: None.</li>
+      <li>Data shared with third parties: None.</li>
+      <li>Advertising: None.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>This policy may be updated when new features are introduced. The most recent version will be published on this page together with the date of the update.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>For any inquiries regarding this policy, please contact: <a href="mailto:ahmedg5538@gmail.com">ahmedg5538@gmail.com</a></p>
+  </section>
+
+  <p class="meta">Last updated: October 29, 2026</p>
+</div>
+</body>
+</html>
